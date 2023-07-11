@@ -1,5 +1,5 @@
 # Northwind Database OLTP to OLAP Transformation: Leveraging Dimensional Modeling for Advanced Analytics
-This project unlocks the power of advanced analytics and reporting by transforming an OLTP architecture into an efficient OLAP setup. Leverage the capabilities of DBT and BigQuery to implement dimensional modeling, and drive data-driven decision-making.
+This project unlocks the power of advanced analytics and reporting by transforming an OLTP architecture into an efficient OLAP system. It Leverages the capabilities of DBT and BigQuery to implement dimensional modeling, and drive data-driven decision-making.
 
 ## Aim
 To modernise data reporting solution for Northwind through DImensional Modeling.
@@ -15,7 +15,7 @@ To modernise data reporting solution for Northwind through DImensional Modeling.
 - They use Mysql database to build and run reports which was not efficient as the analytical queries impacted the processing speed of the transactions system
 <br>
 
-<b>why the need for a new architechture</b>
+<b>why the need for a new architechture?</b>
 
 - For better scalability
 - To improve reporting speed
@@ -29,12 +29,13 @@ To modernise data reporting solution for Northwind through DImensional Modeling.
 - MySQL on-prem can be replaced by a fully managed cloud sql
 - For reporting solutions, an OLAP data warehouse on GCP using Bigquery will be built
 - Dimensional Datawarehouse will be built on bigquery using Kimballs approach with dim and fact tables
+<br>
 
 
 
 ## Identifying Business Requirements
 There are many business Processes that can be derived from North wind database through the E-R diagram. However, we will be focusing on three processes:
-- <b>Sales Overview:</b>Overall sales reports to understand better our customers what is being sold, what sells the most where and what sales the least, the goal is to have a general overview of how the business is going
+- <b>Sales Overview:</b> Overall sales reports to understand better our customers what is being sold, what sells the most where and what sales the least, the goal is to have a general overview of how the business is going
 - <b>Product Inventory: </b>
 Understand the current inventory levels how to improve stock managengent, what suppliers to we have how much is being purchased. This will allow to understand stock management and potentially broker better deals with suppliers
 - <b>Customer Reporting: </b>
@@ -56,9 +57,9 @@ Allow customers to understand their purchase orders, how much and when are they 
 
 
 ### Data Warehouse Architecture
-<img src="readme_images/architechture.png">
+<img src="readme_images/architecture.png">
 <br><br>
-From the image below you can find the three layers created in Bigquery through DBT identified by the `dbt prefix`
+From the image below you can find the three layers created in Bigquery through DBT. They are identified by the "dbt prefix"
 <br>
 <img src="readme_images/layers.png">
 
