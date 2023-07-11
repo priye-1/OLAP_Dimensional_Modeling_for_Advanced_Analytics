@@ -56,7 +56,7 @@ Allow customers to understand their purchase orders, how much and when are they 
 
 
 
-### Data Warehouse Architecture
+### Proposed Data Warehouse Architecture
 <img src="readme_images/architecture.png">
 <br><br>
 From the image below you can find the three layers created in Bigquery through DBT. They are identified by the "dbt prefix"
@@ -64,7 +64,7 @@ From the image below you can find the three layers created in Bigquery through D
 <img src="readme_images/layers.png">
 
 
-### Data Modelling Concepts developed
+### Proposed Data Modelling Concepts
 - <b>Conceptual Data Model</b>
 <img src="readme_images/conceptual_model.png">
 <br><br>
@@ -74,6 +74,12 @@ From the image below you can find the three layers created in Bigquery through D
 - <b>Physical Data Model</b>
 <img src="readme_images/physical_model.png">
 <br><br>
+
+
+### Results
+- The new Data Warehouse uses Bigquery for analytics and Business Intelligence which is more efficient than previous MySQL system.
+- The Reporting is built as One Big Table denormalised from Dimensional models
+- Sales Overview, Product Inventory, and Customer Reporting processes can now be carried out effectively to draw out insights
 
 
 ### Getting started on dbt project
