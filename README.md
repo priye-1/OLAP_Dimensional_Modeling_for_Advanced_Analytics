@@ -6,26 +6,29 @@ To modernise data reporting solution for Northwind through DImensional Modeling.
 
 
 ## Unveiling OLAP for Northwind OLTP Database
-- <b>what is the current architechture?</b>
-<li>Northwind traders are export import companies who trades special foods around the world</li>
-<li>This is a sample database created by microsoft to demonstrate the features of some of its products, and for training and tutorials.</li>
-<li>The existing architecture is a mix of on premise and legacy systems</li>
-<li>They use Mysql for their main sales daily transactions</li>
-<li>They use Mysql database to build and run reports which was not efficient as the analytical queries impacted the processing speed of the transactions system</li>
+<b>what is the current architechture?</b>
+
+- Northwind traders are export import companies who trades special foods around the world
+- This is a sample database created by microsoft to demonstrate the features of some of its products, and for training and tutorials.
+- The existing architecture is a mix of on premise and legacy systems
+- They use Mysql for their main sales daily transactions
+- They use Mysql database to build and run reports which was not efficient as the analytical queries impacted the processing speed of the transactions system
 <br>
 
-- <b>why the need for a new architechture?</b>
-<li>For better scalability</li>
-<li>To improve reporting speed</li>
-<li>To reduce load on operational systems</li>
-<li>To improve data security through better access control</li>
+<b>why the need for a new architechture</b>
+
+- For better scalability
+- To improve reporting speed
+- To reduce load on operational systems
+- To improve data security through better access control
 <br>
 
-- <b>How do we implement a new architechture?</b>
-<li>Northwind traders can migrate existing database to GCP</li>
-<li>MySQL on-prem can be replaced by a fully managed cloud sql</li>
-<li>For reporting solutions, an OLAP data warehouse on GCP using Bigquery will be built</li>
-<li>Dimensional Datawarehouse will be built on bigquery using Kimballs approach with dim and fact tables</li>
+<b>How do we implement a new architechture?</b>
+
+- Northwind traders can migrate existing database to GCP
+- MySQL on-prem can be replaced by a fully managed cloud sql
+- For reporting solutions, an OLAP data warehouse on GCP using Bigquery will be built
+- Dimensional Datawarehouse will be built on bigquery using Kimballs approach with dim and fact tables
 
 
 
