@@ -56,7 +56,7 @@ Allow customers to understand their purchase orders, how much and when are they 
 
 
 
-### Proposed Data Warehouse Architecture
+### Proposed Kimball Data Warehouse Architecture
 <img src="readme_images/architecture.png">
 <br><br>
 From the image below you can find the three layers (datasets) created in Bigquery through DBT. They are identified by the "dbt prefix"
