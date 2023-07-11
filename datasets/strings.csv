@@ -1,0 +1,63 @@
+string_id,string_data
+109,Order must first be marked shipped before closing.
+34,"Sorry, product cannot be successfully posted to inventory."
+29,You cannot remove purchase line items already posted to inventory!
+105,Cannot mark as shipped.  Order must first be invoiced!
+13,Discounted price is below cost!
+12,Cannot create purchase order.  No suppliers listed for specified product
+37,Do you want to post received product to inventory?
+40,Specified user must be logged in to approve purchase!
+112,You must supply a Unit Cost.
+42,"Sorry, you do not have permission to approve purchases."
+24,Must first select reported!
+107,Must first specify salesperson!
+22,Product restocking failed!
+31,You cannot modify quantity for purchased product already received or posted to inventory.
+30,There was an error removing one or more purchase line items.
+102,There was an error trying to cancel this order.
+16,Order does not contain any line items
+32,You cannot modify price for purchased product already received or posted to inventory.
+18,"Sorry, there are no sales in the specified time period"
+36,Cannot post product to inventory without specifying received date!
+5,Discounted price below cost!
+113,"Fill back ordered product, Order #|"
+7,Insufficient inventory. Do you want to create a purchase order?
+114,Purchase generated based on Order #|
+103,The invoice for this order has not yet been created.
+11,Restocking will generate purchase `dl_northwind`.`orders` for all `dl_northwind`.`products` below desired inventory levels.  Do you want to continue?
+28,| product(s) were successfully restocked.  Do you want to view the restocking report?
+104,Shipping information is not complete.  Please specify all shipping information and try again.
+4,Back ordered product filled for Order #|
+110,Must first specify payment information!
+8,Purchase `dl_northwind`.`orders` were successfully created for | `dl_northwind`.`products`
+17,Cannot create invoice!  Inventory has not been allocated for each specified product.
+19,Product successfully restocked.
+25,"Changing supplier will remove purchase line items, continue?"
+106,Cannot cancel an order that has already shipped!
+23,Invalid login specified!
+43,Purchase successfully approved
+2,Northwind Traders
+6,Insufficient inventory.
+45,Purchase successfully submitted for approval
+35,There are `dl_northwind`.`orders` with this product on back order.  Would you like to fill them now?
+47,"Sorry, purchase order does not contain line items"
+14,Do you want to continue?
+41,Purchase order must contain completed line items before it can be approved
+44,Purchase cannot be approved
+38,"Initialize purchase, `dl_northwind`.`orders`, and inventory data?"
+48,Do you want to cancel this order?
+39,Must first specify employee name!
+15,Order is already invoiced. Do you want to print the invoice?
+101,Cannot cancel an order that has items received and posted to inventory.
+108,Order is now marked closed.
+9,There are no `dl_northwind`.`products` below their respective reorder levels
+3,Cannot remove posted inventory!
+46,Purchase cannot be submitted for approval
+27,There was an error attempting to restock inventory levels.
+10,Must specify customer name!
+49,Canceling an order will permanently delete the order.  Are you sure you want to cancel?
+111,There was an error attempting to restock inventory levels.  | product(s) were successfully restocked.
+21,Product does not need restocking! Product is already at desired inventory level.
+100,Your order was successfully canceled.
+33,Product has been successfully posted to inventory.
+26,Purchase `dl_northwind`.`orders` were successfully submitted for | `dl_northwind`.`products`.  Do you want to view the restocking report?

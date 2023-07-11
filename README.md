@@ -54,6 +54,15 @@ Allow customers to understand their purchase orders, how much and when are they 
 <li>Invoices - Invoice created for each order</li>
 
 
+
+### Data Warehouse Architecture
+<img src="readme_images/architechture.png">
+<br><br>
+From the image below you can find the three layers created in Bigquery through DBT identified by the `dbt prefix`
+<br>
+<img src="readme_images/layers.png">
+
+
 ### Data Modelling Concepts developed
 - <b>Conceptual Data Model</b>
 <img src="readme_images/conceptual_model.png">
@@ -66,10 +75,11 @@ Allow customers to understand their purchase orders, how much and when are they 
 <br><br>
 
 
-### Using the starter on dbt project
-Try running the following commands:
-- dbt run
-- dbt test
+### Getting started on dbt project
+- Commands to install dbt and connect to bigquery <a href="">here</a>
+- Commands to create tables and insert data <a href="">here</a>
+- If you are not able to enable billing for Bigquery on your account, insert data manually by uploading csv files located <a href="">here</a>
+
 
 
 ### Resources:

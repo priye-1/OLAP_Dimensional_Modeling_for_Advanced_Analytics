@@ -1,0 +1,49 @@
+id,employee_id,customer_id,order_date,shipped_date,shipper_id,ship_name,ship_address,ship_city,ship_state_province,ship_zip_postal_code,ship_country_region,shipping_fee,taxes,payment_type,paid_date,notes,tax_rate,tax_status_id,status_id
+39,3,8,2006-03-22 00:00:00,2006-03-24 00:00:00,3,Elizabeth Andersen,123 8th Street,Portland,OR,99999,USA,5,0,Check,2006-03-22 00:00:00,,0,,3
+31,3,4,2006-01-20 00:00:00,2006-01-22 00:00:00,1,Christina Lee,123 4th Street,New York,NY,99999,USA,5,0,Credit Card,2006-01-20 00:00:00,,0,,3
+32,4,12,2006-01-22 00:00:00,2006-01-22 00:00:00,2,John Edwards,123 12th Street,Las Vegas,NV,99999,USA,5,0,Credit Card,2006-01-22 00:00:00,,0,,3
+74,6,6,2006-06-08 00:00:00,2006-06-08 00:00:00,2,Francisco Pérez-Olaeta,123 6th Street,Milwaukee,WI,99999,USA,300,0,Credit Card,2006-06-08 00:00:00,,0,,3
+76,9,25,2006-06-05 00:00:00,2006-06-05 00:00:00,1,John Rodman,789 25th Street,Chicago,IL,99999,USA,5,0,Cash,2006-06-05 00:00:00,,0,,3
+57,9,27,2006-04-22 00:00:00,2006-04-22 00:00:00,2,Karen Toh,789 27th Street,Las Vegas,NV,99999,USA,200,0,Check,2006-04-22 00:00:00,,0,,0
+38,9,28,2006-03-10 00:00:00,2006-03-11 00:00:00,3,Amritansh Raghav,789 28th Street,Memphis,TN,99999,USA,10,0,Check,2006-03-10 00:00:00,,0,,3
+46,7,9,2006-04-05 00:00:00,2006-04-05 00:00:00,1,Sven Mortensen,123 9th Street,Salt Lake City,UT,99999,USA,100,0,Check,2006-04-05 00:00:00,,0,,3
+68,1,7,2006-05-24 00:00:00,,,Ming-Yang Xie,123 7th Street,Boise,ID,99999,USA,0,0,,,,0,,0
+78,1,29,2006-06-05 00:00:00,2006-06-05 00:00:00,2,Soo Jung Lee,789 29th Street,Denver,CO,99999,USA,200,0,Check,2006-06-05 00:00:00,,0,,3
+67,4,10,2006-05-24 00:00:00,2006-05-24 00:00:00,2,Roland Wacker,123 10th Street,Chicago,IL,99999,USA,9,0,Credit Card,2006-05-24 00:00:00,,0,,3
+45,1,28,2006-04-07 00:00:00,2006-04-07 00:00:00,3,Amritansh Raghav,789 28th Street,Memphis,TN,99999,USA,40,0,Credit Card,2006-04-07 00:00:00,,0,,3
+77,9,26,2006-06-05 00:00:00,2006-06-05 00:00:00,3,Run Liu,789 26th Street,Miami,FL,99999,USA,60,0,Credit Card,2006-06-05 00:00:00,,0,,3
+41,1,7,2006-03-24 00:00:00,,,Ming-Yang Xie,123 7th Street,Boise,ID,99999,USA,0,0,,,,0,,0
+51,9,26,2006-04-05 00:00:00,2006-04-05 00:00:00,3,Run Liu,789 26th Street,Miami,FL,99999,USA,60,0,Credit Card,2006-04-05 00:00:00,,0,,3
+48,4,8,2006-04-05 00:00:00,2006-04-05 00:00:00,2,Elizabeth Andersen,123 8th Street,Portland,OR,99999,USA,50,0,Check,2006-04-05 00:00:00,,0,,3
+36,4,3,2006-02-23 00:00:00,2006-02-25 00:00:00,2,Thomas Axen,123 3rd Street,Los Angelas,CA,99999,USA,7,0,Cash,2006-02-23 00:00:00,,0,,3
+80,2,4,2006-04-25 17:03:55,,,Christina Lee,123 4th Street,New York,NY,99999,USA,0,0,,,,0,,0
+66,3,8,2006-05-24 00:00:00,2006-05-24 00:00:00,3,Elizabeth Andersen,123 8th Street,Portland,OR,99999,USA,5,0,Check,2006-05-24 00:00:00,,0,,0
+37,8,6,2006-03-06 00:00:00,2006-03-09 00:00:00,2,Francisco Pérez-Olaeta,123 6th Street,Milwaukee,WI,99999,USA,12,0,Credit Card,2006-03-06 00:00:00,,0,,3
+65,9,28,2006-05-11 00:00:00,2006-05-11 00:00:00,3,Amritansh Raghav,789 28th Street,Memphis,TN,99999,USA,10,0,Check,2006-05-11 00:00:00,,0,,0
+47,6,6,2006-04-08 00:00:00,2006-04-08 00:00:00,2,Francisco Pérez-Olaeta,123 6th Street,Milwaukee,WI,99999,USA,300,0,Credit Card,2006-04-08 00:00:00,,0,,3
+43,1,11,2006-03-24 00:00:00,,3,Peter Krschne,123 11th Street,Miami,FL,99999,USA,0,0,,,,0,,0
+58,3,4,2006-04-22 00:00:00,2006-04-22 00:00:00,1,Christina Lee,123 4th Street,New York,NY,99999,USA,5,0,Credit Card,2006-04-22 00:00:00,,0,,3
+35,3,29,2006-02-10 00:00:00,2006-02-12 00:00:00,2,Soo Jung Lee,789 29th Street,Denver,CO,99999,USA,7,0,Check,2006-02-10 00:00:00,,0,,3
+75,4,8,2006-06-05 00:00:00,2006-06-05 00:00:00,2,Elizabeth Andersen,123 8th Street,Portland,OR,99999,USA,50,0,Check,2006-06-05 00:00:00,,0,,3
+42,1,10,2006-03-24 00:00:00,2006-04-07 00:00:00,1,Roland Wacker,123 10th Street,Chicago,IL,99999,USA,0,0,,,,0,,2
+71,1,1,2006-05-24 00:00:00,,3,Anna Bedecs,123 1st Street,Seattle,WA,99999,USA,0,0,,,,0,,0
+81,2,3,2006-04-25 17:26:53,,,Thomas Axen,123 3rd Street,Los Angelas,CA,99999,USA,0,0,,,,0,,0
+50,9,25,2006-04-05 00:00:00,2006-04-05 00:00:00,1,John Rodman,789 25th Street,Chicago,IL,99999,USA,5,0,Cash,2006-04-05 00:00:00,,0,,3
+62,3,29,2006-04-12 00:00:00,2006-04-12 00:00:00,2,Soo Jung Lee,789 29th Street,Denver,CO,99999,USA,7,0,Check,2006-04-12 00:00:00,,0,,0
+63,4,3,2006-04-25 00:00:00,2006-04-25 00:00:00,2,Thomas Axen,123 3rd Street,Los Angelas,CA,99999,USA,7,0,Cash,2006-04-25 00:00:00,,0,,3
+55,1,29,2006-04-05 00:00:00,2006-04-05 00:00:00,2,Soo Jung Lee,789 29th Street,Denver,CO,99999,USA,200,0,Check,2006-04-05 00:00:00,,0,,3
+59,4,12,2006-04-22 00:00:00,2006-04-22 00:00:00,2,John Edwards,123 12th Street,Las Vegas,NV,99999,USA,5,0,Credit Card,2006-04-22 00:00:00,,0,,0
+79,2,6,2006-06-23 00:00:00,2006-06-23 00:00:00,3,Francisco Pérez-Olaeta,123 6th Street,Milwaukee,WI,99999,USA,0,0,Check,2006-06-23 00:00:00,,0,,3
+61,9,4,2006-04-07 00:00:00,2006-04-07 00:00:00,3,Christina Lee,123 4th Street,New York,NY,99999,USA,4,0,Check,2006-04-07 00:00:00,,0,,0
+70,1,11,2006-05-24 00:00:00,,3,Peter Krschne,123 11th Street,Miami,FL,99999,USA,0,0,,,,0,,0
+64,8,6,2006-05-09 00:00:00,2006-05-09 00:00:00,2,Francisco Pérez-Olaeta,123 6th Street,Milwaukee,WI,99999,USA,12,0,Credit Card,2006-05-09 00:00:00,,0,,0
+40,4,10,2006-03-24 00:00:00,2006-03-24 00:00:00,2,Roland Wacker,123 10th Street,Chicago,IL,99999,USA,9,0,Credit Card,2006-03-24 00:00:00,,0,,3
+60,6,8,2006-04-30 00:00:00,2006-04-30 00:00:00,3,Elizabeth Andersen,123 8th Street,Portland,OR,99999,USA,50,0,Credit Card,2006-04-30 00:00:00,,0,,3
+44,1,1,2006-03-24 00:00:00,,,Anna Bedecs,123 1st Street,Seattle,WA,99999,USA,0,0,,,,0,,0
+30,9,27,2006-01-15 00:00:00,2006-01-22 00:00:00,2,Karen Toh,789 27th Street,Las Vegas,NV,99999,USA,200,0,Check,2006-01-15 00:00:00,,0,,3
+34,9,4,2006-02-06 00:00:00,2006-02-07 00:00:00,3,Christina Lee,123 4th Street,New York,NY,99999,USA,4,0,Check,2006-02-06 00:00:00,,0,,3
+69,1,10,2006-05-24 00:00:00,,1,Roland Wacker,123 10th Street,Chicago,IL,99999,USA,0,0,,,,0,,0
+72,1,28,2006-06-07 00:00:00,2006-06-07 00:00:00,3,Amritansh Raghav,789 28th Street,Memphis,TN,99999,USA,40,0,Credit Card,2006-06-07 00:00:00,,0,,3
+73,7,9,2006-06-05 00:00:00,2006-06-05 00:00:00,1,Sven Mortensen,123 9th Street,Salt Lake City,UT,99999,USA,100,0,Check,2006-06-05 00:00:00,,0,,3
+33,6,8,2006-01-30 00:00:00,2006-01-31 00:00:00,3,Elizabeth Andersen,123 8th Street,Portland,OR,99999,USA,50,0,Credit Card,2006-01-30 00:00:00,,0,,3
+56,2,6,2006-04-03 00:00:00,2006-04-03 00:00:00,3,Francisco Pérez-Olaeta,123 6th Street,Milwaukee,WI,99999,USA,0,0,Check,2006-04-03 00:00:00,,0,,3
