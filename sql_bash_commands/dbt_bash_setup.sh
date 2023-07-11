@@ -1,3 +1,9 @@
+# create virtual environment
+python -m venv .venv
+
+# activate virtual environment on mac
+source .venv/bin/activate
+
 ## Installing dbt-bigquery will also install dbt-core and any other dependencies.
 pip install dbt-bigquery 
 
